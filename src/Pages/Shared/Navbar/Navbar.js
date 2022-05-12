@@ -1,13 +1,14 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
     const menuItem = <>
-        <li className="justify-between"><a href="">Home</a></li>
-        <li className="justify-between"><a href="">About</a></li>
-        <li className="justify-between"><a href="">Appointment</a></li>
-        <li className="justify-between"><a href="">Reviews</a></li>
-        <li className="justify-between"><a href="">Contact Us</a></li>
-        <li className="justify-between"><a href="">Login</a></li>
+        <li className="justify-between"><Link to="/">Home</Link></li>
+        <li className="justify-between"><Link to="/about">About</Link></li>
+        <li className="justify-between"><Link to="/appointment">Appointment</Link></li>
+        <li className="justify-between"><Link to="/reviews">Reviews</Link></li>
+        <li className="justify-between"><Link to="/contact">Contact Us</Link></li>
+        <li className="justify-between"><Link to="/login">Login</Link></li>
     </>
     return (
         <div className="navbar bg-base-100 justify-between">
