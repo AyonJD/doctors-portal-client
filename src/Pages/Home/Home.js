@@ -8,6 +8,7 @@ import cavityImage from '../../assets/images/cavity.png'
 import whiteningImage from '../../assets/images/whitening.png'
 import Card from './Card/Card';
 import ServiceCard from './ServiceCard/ServiceCard';
+import ExceptionalService from './ExceptionalService/ExceptionalService';
 
 const Home = () => {
     const cardData = [
@@ -28,6 +29,7 @@ const Home = () => {
                     cardData.map(data => <Card key={data.id} data={data} ></Card>)
                 }
             </div>
+
             <div className='mt-20'>
                 <h1 className='text-secondary text-center text-lg md:text-xl font-bold'>OUR SERVICES</h1>
                 <h1 className='text-center text-3xl'>Services We Provide</h1>
@@ -37,6 +39,8 @@ const Home = () => {
                     }
                 </div>
             </div>
+
+            <ExceptionalService></ExceptionalService>
         </div>
     );
 };
