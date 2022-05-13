@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
 }
 
-.card-height {
-    height: 576px !important;
+.bottom-banner-bg {
+    background-image: url('./assets/images/appointment.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

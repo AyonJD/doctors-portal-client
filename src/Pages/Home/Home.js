@@ -9,6 +9,7 @@ import whiteningImage from '../../assets/images/whitening.png'
 import Card from './Card/Card';
 import ServiceCard from './ServiceCard/ServiceCard';
 import ExceptionalService from './ExceptionalService/ExceptionalService';
+import BottomBanner from './BottomBanner/BottomBanner';
 
 const Home = () => {
     const cardData = [
@@ -41,6 +42,8 @@ const Home = () => {
             </div>
 
             <ExceptionalService></ExceptionalService>
+
+            <BottomBanner></BottomBanner>
         </div>
     );
 };
