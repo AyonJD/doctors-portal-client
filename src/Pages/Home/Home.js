@@ -10,6 +10,7 @@ import Card from './Card/Card';
 import ServiceCard from './ServiceCard/ServiceCard';
 import ExceptionalService from './ExceptionalService/ExceptionalService';
 import BottomBanner from './BottomBanner/BottomBanner';
+import Testimonials from './Testimonials/Testimonial';
 
 const Home = () => {
     const cardData = [
@@ -44,6 +45,8 @@ const Home = () => {
             <ExceptionalService></ExceptionalService>
 
             <BottomBanner></BottomBanner>
+
+            <Testimonials></Testimonials>
         </div>
     );
 };
